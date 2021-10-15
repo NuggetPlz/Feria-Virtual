@@ -1,0 +1,30 @@
+<h1>Ingresando como usuario Comprador</h1>
+
+<div class="containerRegistro">
+<div class="row">
+    <div class="col-25">
+      <label for="lname">Correo Electronico</label>
+    </div>
+    <div class="email-container">
+      <mat-form-field appearance="fill">
+        <mat-label>Ingresa tu correo</mat-label>
+        <input matInput placeholder="pat@example.com" formControl="email" required>
+      </mat-form-field>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Contraseña</label>
+    </div>
+    <div class="ContrasenaRegistro">
+      <mat-form-field appearance="fill">
+        <mat-label>Contraseña</mat-label>
+        <input matInput placeholder="3 o más digitos" required type="password">
+      </mat-form-field>
+    </div>
+  </div>
+  <div class="row">
+    <a routerLink="/productosMenu"><input type="submit" value="Iniciar Sesion" ></a>
+  </div>
+
+</div>

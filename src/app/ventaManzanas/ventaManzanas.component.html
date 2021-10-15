@@ -1,0 +1,17 @@
+<h2></h2>
+
+<h1>Procesos de venta para participar</h1>
+
+<div class="responsiveProductos">
+    <div *ngFor="let user of servicio.manzanas| keyvalue">
+        <div class="gallery">
+            <a>
+            <img src="assets/images/Manzanas.png" alt="Proveedores" width="100" height="100">
+        </a>
+        <p> Cantidad Necesitadas   <b> {{user.value['CANTIDAD']}} </b></p>
+        <p> Fecha Limite para participar de la venta  <b> {{user.value['FECHA_LIMITE']}} </b></p>
+        <p> Valor por Kilo   <b> {{user.value['VALOR_KILO']}} </b></p>
+       </div>
+    </div>
+</div>    
+    
